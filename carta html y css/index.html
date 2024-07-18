@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Dannita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Querida Danna.</strong>
+                        <p>
+                            Eres una niña maravillosa, tus hermosas cualidades son las que te hacen unica y especial
+                            y son el motivo de que cada dia me enamore mas de ti y no me alcanzaria el tiempo ni el espacio de esta hoja para escribirlas...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap')
+        });
+    </script>
+</body>
+</html>
